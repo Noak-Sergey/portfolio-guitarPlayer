@@ -1,0 +1,1479 @@
+/* line 1, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/resets.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* line 21, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/resets.scss */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 25, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/resets.scss */
+html {
+  height: 100%;
+}
+
+/* line 28, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/resets.scss */
+body {
+  line-height: 1;
+}
+
+/* line 31, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/resets.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 34, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/resets.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 37, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/resets.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* line 42, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/resets.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+/* line 11, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/normalizes.scss */
+html {
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers.
+ */
+/* line 23, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/normalizes.scss */
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+/* line 31, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/normalizes.scss */
+main {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+/* line 40, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/normalizes.scss */
+h1 {
+  font-size: 2em;
+  margin: 0 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+/* line 53, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/normalizes.scss */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
+  margin: 0;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+/* line 65, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/normalizes.scss */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+/* line 77, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/normalizes.scss */
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+/* line 86, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/normalizes.scss */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+/* line 96, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/normalizes.scss */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+/* line 106, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/normalizes.scss */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+/* line 117, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/normalizes.scss */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+/* line 126, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/normalizes.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 134, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/normalizes.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/* line 138, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/normalizes.scss */
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+/* line 149, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/normalizes.scss */
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+/* line 161, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/normalizes.scss */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+/* line 177, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/normalizes.scss */
+button,
+input {
+  /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+/* line 187, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/normalizes.scss */
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+/* line 196, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/normalizes.scss */
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+/* line 207, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/normalizes.scss */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+/* line 219, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/normalizes.scss */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+/* line 230, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/normalizes.scss */
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+/* line 241, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/normalizes.scss */
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+/* line 254, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/normalizes.scss */
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+/* line 262, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/normalizes.scss */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+/* line 271, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/normalizes.scss */
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+/* line 281, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/normalizes.scss */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+/* line 291, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/normalizes.scss */
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+/* line 300, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/normalizes.scss */
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+/* line 309, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/normalizes.scss */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+/* line 321, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/normalizes.scss */
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+/* line 329, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/normalizes.scss */
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10+.
+ */
+/* line 340, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/normalizes.scss */
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+/* line 348, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/normalizes.scss */
+[hidden] {
+  display: none;
+}
+
+/* line 4, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat-Regular.ttf");
+  font-weight: regular;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat-SemiBold.ttf");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* line 21, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+html {
+  font-family: "Montserrat";
+  font-weight: regular;
+}
+
+/* line 28, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+.container {
+  position: relative;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+/* line 32, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+.main-section {
+  position: relative;
+  min-height: 800px;
+  background: #F0F0F0;
+  padding-top: 16px;
+  overflow: hidden;
+}
+
+/* line 38, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+.main-section__nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 69px;
+  align-items: center;
+}
+
+/* line 44, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+.main-section__logo {
+  width: 100px;
+}
+
+/* line 46, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+.main-section__content-container {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+
+/* line 50, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+.main-section__first-elipse {
+  position: absolute;
+  top: 129px;
+  right: 80px;
+}
+
+/* line 54, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+.main-section__second-elipse {
+  position: absolute;
+  right: -120px;
+  top: 650px;
+}
+
+/* line 60, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+.nav-menu__list {
+  display: flex;
+  flex-direction: row;
+}
+
+/* line 63, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+.nav-menu__list-item {
+  margin-right: 64px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* line 67, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+.nav-menu__list-item:last-child {
+  margin-right: 0px;
+}
+
+/* line 69, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+.nav-menu__list-item a {
+  text-decoration: none;
+  color: black;
+}
+
+/* line 73, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+.left-wrapper {
+  position: relative;
+}
+
+/* line 75, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+.left-wrapper img {
+  position: relative;
+  z-index: 5;
+}
+
+/* line 78, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+.left-wrapper__rectangle-blue {
+  position: absolute;
+  top: 150px;
+  left: -50px;
+  width: 565.95px;
+  height: 220px;
+  background: #5290EA;
+  border-radius: 100px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  transform: rotate(-64deg);
+  z-index: 2;
+}
+
+/* line 89, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+.left-wrapper__rectangle-orange {
+  position: absolute;
+  width: 618.43px;
+  height: 220px;
+  left: -30px;
+  top: 160px;
+  background: #F28B64;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 100px;
+  transform: rotate(-50.81deg);
+  z-index: 3;
+}
+
+/* line 100, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+.left-wrapper__rectangle-grey {
+  position: absolute;
+  width: 608.97px;
+  height: 220px;
+  left: 10px;
+  top: 190px;
+  background: #E2E2E2;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 100px;
+  transform: rotate(-36.15deg);
+  z-index: 1;
+}
+
+/* line 112, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+.right-wrapper {
+  width: 372px;
+  position: absolute;
+  top: 150px;
+  right: 76px;
+  z-index: 5;
+}
+
+/* line 118, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+.right-wrapper__icons-box {
+  margin-bottom: 1px;
+  padding-left: 10px;
+}
+
+/* line 121, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+.right-wrapper__title {
+  margin-bottom: 5px;
+}
+
+/* line 123, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+.right-wrapper__text {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+/* line 127, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+.icons {
+  display: inline-flex;
+}
+
+/* line 130, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+.icons__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #5290EA;
+  border-radius: 100px;
+  margin-right: 17px;
+}
+
+/* line 139, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+.icons__item:last-child {
+  margin-right: 0px;
+}
+
+/* line 141, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+.icons__item i {
+  font-size: 21px;
+}
+
+/* line 144, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+.title {
+  font-size: 72px;
+  position: relative;
+  font-weight: bold;
+}
+
+/* line 148, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+.title__hr {
+  width: 65px;
+  position: absolute;
+  border: none;
+  bottom: 0px;
+  margin: 0;
+  border-top: 1px solid black;
+}
+
+/* line 156, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+.buttons {
+  display: inline-flex;
+}
+
+/* line 159, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+.buttons__main-btn {
+  margin-right: 32px;
+  width: 200px;
+  height: 60px;
+  background-color: #F28B64;
+  border: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 100px;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* line 170, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+.buttons__icon-btn {
+  display: inline-flex;
+  align-items: center;
+}
+
+/* line 173, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+.buttons__icon-btn img {
+  margin-right: 12px;
+}
+
+/* line 175, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+.buttons__text {
+  font-size: 16px;
+}
+
+/* line 178, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+.elipse {
+  width: 194px;
+  height: 194px;
+  background: linear-gradient(143.92deg, rgba(237, 123, 80, 0.5) 14.85%, rgba(72, 138, 234, 0.5) 53.25%, rgba(44, 44, 44, 0.5) 85.74%);
+  border-radius: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 186, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+.elipse_dig {
+  width: 282px;
+  height: 282px;
+}
+
+/* line 189, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+.elipse__subtract {
+  width: 129.33px;
+  height: 129.33px;
+  background: #F0F0F0;
+  border-radius: 150px;
+}
+
+/* line 194, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+.elipse__subtract_big {
+  width: 188px;
+  height: 188px;
+}
+
+/* line 200, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+.second-section {
+  overflow: hidden;
+  min-height: 700px;
+}
+
+/* line 203, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+.second-section__container {
+  padding-top: 32px;
+  position: relative;
+}
+
+/* line 206, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+.second-section__title {
+  margin-bottom: 40px;
+}
+
+/* line 208, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+.second-section__cards-box {
+  display: inline-flex;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+/* line 212, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+.second-section__cards-item {
+  margin-right: 30px;
+}
+
+/* line 214, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+.second-section__cards-item:last-child {
+  margin-right: 0;
+}
+
+/* line 216, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+.second-section__icons-box {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* line 220, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+.second-section__icons-item:last-child {
+  margin-right: 0;
+}
+
+/* line 222, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+.second-section__first-elipse {
+  position: absolute;
+  top: 80px;
+  right: -60px;
+  z-index: -1;
+}
+
+/* line 227, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+.second-section__second-elipse {
+  position: absolute;
+  top: 364px;
+  left: -60px;
+  z-index: -1;
+}
+
+/* line 233, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+.cards-item {
+  position: relative;
+  width: 360px;
+  height: 360px;
+  background: #E2E2E2;
+  border-radius: 10px;
+  display: flex;
+  align-items: flex-end;
+}
+
+/* line 241, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+.cards-item__img {
+  height: 335px;
+}
+
+/* line 243, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+.cards-item__text {
+  width: 280px;
+  font-size: 36px;
+  text-align: center;
+  transform: rotate(90deg);
+  position: absolute;
+  top: 144px;
+  right: -45px;
+  font-weight: bold;
+}
+
+/* line 253, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+.cards-item_orange {
+  background: #F28B64;
+}
+
+/* line 256, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+.cards-item_blue {
+  background: #5290EA;
+}
+
+/* line 259, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+.icons-item {
+  display: inline-flex;
+  align-items: center;
+}
+
+/* line 262, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+.icons-item__img {
+  margin-right: 20px;
+  width: 80px;
+}
+
+/* line 265, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+.icons-item__text {
+  font-size: 18px;
+}
+
+/* line 267, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+.icons-item__text span {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+/* line 273, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+.third-section {
+  position: relative;
+  min-height: 640px;
+  background: #F0F0F0;
+  overflow: hidden;
+  z-index: 0;
+}
+
+/* line 279, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+.third-section__container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 167px;
+  padding-top: 46px;
+}
+
+/* line 286, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+.third-section__right-wrapper {
+  max-width: 480px;
+}
+
+/* line 288, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+.third-section__right-title {
+  margin-bottom: 20px;
+}
+
+/* line 290, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+.third-section__text {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+/* line 293, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+.third-section__first-elipse {
+  position: absolute;
+  top: 140px;
+  left: 110px;
+  z-index: -1;
+}
+
+/* line 298, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+.third-section__figure {
+  position: absolute;
+  top: 249px;
+  left: 15px;
+  z-index: -1;
+}
+
+/* line 303, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+.third-section__second-elipse {
+  position: absolute;
+  right: -120px;
+  top: -120px;
+}
+
+/* line 308, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+.title__hr_top {
+  bottom: 75px;
+}
+
+/* line 314, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+.footer__img {
+  position: absolute;
+  left: -250px;
+  bottom: 0;
+}
+
+/* line 318, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+.footer__container {
+  min-height: 272px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+/* line 323, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+.footer__title {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 1199px) {
+  /* line 329, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+  .container {
+    width: 960px;
+  }
+  /* line 331, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+  .main-section {
+    min-height: 690px;
+  }
+  /* line 334, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+  .left-wrapper img {
+    width: 750px;
+  }
+  /* line 336, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+  .left-wrapper__rectangle-blue {
+    width: 500px;
+    height: 200px;
+  }
+  /* line 339, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+  .left-wrapper__rectangle-orange {
+    width: 520px;
+    height: 200px;
+  }
+  /* line 342, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+  .left-wrapper__rectangle-grey {
+    width: 500px;
+    height: 200px;
+  }
+  /* line 345, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+  .right-wrapper {
+    right: 20px;
+  }
+  /* line 347, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+  .main-section__first-elipse {
+    right: 20px;
+  }
+  /* line 349, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+  .main-section__second-elipse {
+    top: 560px;
+  }
+  /* line 352, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+  .second-section {
+    min-height: 600px;
+  }
+  /* line 354, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+  .second-section__cards-box {
+    display: flex;
+    justify-content: center;
+  }
+  /* line 357, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+  .cards-item {
+    width: 300px;
+    height: 300px;
+    margin-right: 25px;
+  }
+  /* line 361, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+  .cards-item__img {
+    height: 270px;
+  }
+  /* line 363, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+  .cards-item__text {
+    font-size: 30px;
+    top: 120px;
+    right: -67px;
+  }
+  /* line 367, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+  .icons-item__img {
+    margin-right: 10px;
+  }
+  /* line 370, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+  .third-section__container {
+    padding-left: 40px;
+  }
+  /* line 372, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+  .third-section__right-wrapper {
+    max-width: 450px;
+  }
+}
+
+@media (max-width: 991px) {
+  /* line 377, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+  .container {
+    width: 720px;
+  }
+  /* line 379, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+  .main-section {
+    min-height: 575px;
+  }
+  /* line 382, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+  .left-wrapper img {
+    width: 605px;
+  }
+  /* line 384, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+  .left-wrapper__rectangle-blue {
+    width: 450px;
+    height: 200px;
+  }
+  /* line 387, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+  .left-wrapper__rectangle-orange {
+    width: 470px;
+    height: 200px;
+  }
+  /* line 390, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+  .left-wrapper__rectangle-grey {
+    width: 450px;
+    height: 200px;
+  }
+  /* line 393, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+  .right-wrapper {
+    width: 354px;
+    right: -72px;
+    top: 30px;
+  }
+  /* line 397, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+  .right-wrapper__title {
+    font-size: 50px;
+  }
+  /* line 399, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+  .right-wrapper__text {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  /* line 402, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+  .title__hr {
+    width: 34px;
+  }
+  /* line 404, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+  .buttons__main-btn {
+    margin-right: 16px;
+    width: 130px;
+    height: 45px;
+    font-size: 12px;
+  }
+  /* line 409, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+  .buttons__text {
+    font-size: 14px;
+  }
+  /* line 411, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+  .main-section__first-elipse {
+    right: 87px;
+    top: 96px;
+  }
+  /* line 414, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+  .main-section__second-elipse {
+    top: 500px;
+    right: -100px;
+  }
+  /* line 417, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+  .elipse_dig {
+    width: 182px;
+    height: 182px;
+  }
+  /* line 420, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+  .elipse__subtract_big {
+    width: 120px;
+    height: 120px;
+  }
+  /* line 424, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+  .second-section {
+    min-height: 575px;
+  }
+  /* line 426, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+  .second-section__cards-box {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 33px;
+  }
+  /* line 430, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+  .second-section__title {
+    font-size: 50px;
+    margin-bottom: 20px;
+  }
+  /* line 433, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+  .second-section__title .title__hr {
+    left: 4px;
+  }
+  /* line 435, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+  .cards-item {
+    width: 230px;
+    height: 250px;
+    margin-right: 15px;
+  }
+  /* line 439, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+  .cards-item__img {
+    height: 215px;
+  }
+  /* line 441, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+  .cards-item__text {
+    font-size: 25px;
+    top: 100px;
+    right: -83px;
+  }
+  /* line 445, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+  .icons-item__img {
+    margin-right: 6px;
+    width: 56px;
+  }
+  /* line 448, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+  .icons-item__text {
+    font-size: 14px;
+  }
+  /* line 450, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+  .icons-item__text span {
+    font-size: 40px;
+  }
+  /* line 453, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+  .third-section {
+    min-height: 575px;
+  }
+  /* line 455, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+  .third-section__container {
+    padding-left: 0px;
+  }
+  /* line 457, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+  .third-section__left-title {
+    font-size: 50px;
+  }
+  /* line 459, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+  .third-section__left-title .title__hr {
+    left: 3px;
+  }
+  /* line 461, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+  .third-section__right-title {
+    font-size: 50px;
+  }
+  /* line 463, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+  .third-section__right-title .title__hr {
+    left: 3px;
+    top: 47px;
+  }
+  /* line 466, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+  .third-section__right-wrapper {
+    max-width: 400px;
+  }
+  /* line 468, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+  .third-section__text {
+    font-size: 14px;
+  }
+  /* line 473, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+  .footer__img {
+    width: 560px;
+  }
+  /* line 475, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+  .footer__title {
+    font-size: 50px;
+  }
+  /* line 477, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+  .footer__title .title__hr {
+    top: 47px;
+    width: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 483, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+  .container {
+    width: 540px;
+  }
+  /* line 485, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+  .nav-menu {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    height: 100vh;
+    width: 25%;
+    background: #F0F0F0;
+    z-index: 10;
+    transition: 0.6s all;
+  }
+  /* line 494, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+  .nav-menu__list {
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+  }
+  /* line 499, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+  .nav-menu__list-item {
+    margin-right: 0;
+    font-size: 20px;
+  }
+  /* line 502, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+  .hamburger {
+    width: 30px;
+    position: absolute;
+    top: 25px;
+    right: 30px;
+    height: 14px;
+  }
+  /* line 508, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+  .hamburger span {
+    height: 2px;
+    width: 100%;
+    display: block;
+    background: black;
+    margin-bottom: 4px;
+    transition: 1s all;
+  }
+  /* line 515, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+  .hamburger span:last-child {
+    margin-bottom: 0;
+  }
+  /* line 517, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+  .hamburger_active {
+    z-index: 15;
+  }
+  /* line 519, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+  .hamburger_active span {
+    margin-bottom: -2px;
+  }
+  /* line 521, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+  .hamburger_active span:nth-child(1) {
+    transform: translateY(3px) rotate(-45deg);
+  }
+  /* line 523, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+  .hamburger_active span:nth-child(2) {
+    display: none;
+  }
+  /* line 525, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+  .hamburger_active span:nth-child(3) {
+    transform: translateY(3px) rotate(45deg);
+  }
+  /* line 527, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+  .nav-menu_active {
+    right: 0px;
+  }
+  /* line 530, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+  .main-section {
+    min-height: 490px;
+  }
+  /* line 533, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+  .left-wrapper img {
+    width: 500px;
+  }
+  /* line 535, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+  .left-wrapper__rectangle-blue {
+    width: 360px;
+    height: 120px;
+  }
+  /* line 538, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+  .left-wrapper__rectangle-orange {
+    width: 380px;
+    height: 120px;
+  }
+  /* line 541, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+  .left-wrapper__rectangle-grey {
+    width: 360px;
+    height: 120px;
+  }
+  /* line 544, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+  .right-wrapper {
+    width: 252px;
+    right: -39px;
+    top: 16px;
+  }
+  /* line 548, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+  .right-wrapper__icons-box {
+    padding-left: 0px;
+  }
+  /* line 550, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+  .right-wrapper__title {
+    font-size: 40px;
+  }
+  /* line 552, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+  .right-wrapper__text {
+    font-size: 12px;
+    margin-bottom: 77px;
+    width: 200px;
+  }
+  /* line 556, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+  .title__hr {
+    width: 34px;
+  }
+  /* line 558, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+  .buttons__main-btn {
+    margin-right: 7px;
+    width: 100px;
+    height: 40px;
+    font-size: 10px;
+  }
+  /* line 563, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+  .buttons__icon-btn {
+    width: 50px;
+  }
+  /* line 565, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+  .buttons__text {
+    font-size: 10px;
+  }
+  /* line 567, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+  .main-section__first-elipse {
+    right: -9px;
+    top: 40px;
+    width: 152px;
+    height: 152px;
+  }
+  /* line 572, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+  .main-section__first-elipse .elipse__subtract {
+    width: 100px;
+    height: 100px;
+  }
+  /* line 575, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+  .main-section__second-elipse {
+    top: 400px;
+    right: -100px;
+  }
+  /* line 578, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+  .elipse_dig {
+    width: 182px;
+    height: 182px;
+  }
+  /* line 581, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+  .elipse__subtract_big {
+    width: 120px;
+    height: 120px;
+  }
+  /* line 585, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+  .second-section {
+    min-height: 430px;
+  }
+  /* line 587, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+  .second-section__cards-box {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 33px;
+  }
+  /* line 591, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+  .second-section__title {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  /* line 594, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+  .second-section__title .title__hr {
+    left: 4px;
+    width: 25px;
+  }
+  /* line 597, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+  .second-section__icons-item {
+    margin-right: 7px;
+  }
+  /* line 599, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+  .second-section__second-elipse {
+    top: 133px;
+  }
+  /* line 601, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+  .cards-item {
+    width: 230px;
+    height: 200px;
+    margin-right: 15px;
+  }
+  /* line 605, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+  .cards-item__img {
+    height: 160px;
+  }
+  /* line 607, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+  .cards-item__text {
+    font-size: 20px;
+    top: 80px;
+    right: -98px;
+  }
+  /* line 611, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+  .icons-item__img {
+    margin-right: 6px;
+    width: 50px;
+  }
+  /* line 614, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+  .icons-item__text {
+    font-size: 12px;
+  }
+  /* line 616, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+  .icons-item__text span {
+    font-size: 30px;
+  }
+  /* line 619, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+  .third-section {
+    min-height: 520px;
+  }
+  /* line 621, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+  .third-section__container {
+    padding-left: 0px;
+  }
+  /* line 623, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+  .third-section__left-title {
+    font-size: 40px;
+    margin-right: 10px;
+  }
+  /* line 626, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+  .third-section__left-title .title__hr {
+    left: 3px;
+    width: 28px;
+  }
+  /* line 629, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+  .third-section__first-elipse {
+    width: 152px;
+    height: 152px;
+    left: 60px;
+  }
+  /* line 633, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+  .third-section__first-elipse .elipse__subtract {
+    width: 100px;
+    height: 100px;
+  }
+  /* line 636, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+  .third-section__figure {
+    width: 200px;
+    top: 243px;
+    left: 0px;
+  }
+  /* line 640, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+  .third-section__right-title {
+    font-size: 40px;
+  }
+  /* line 642, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+  .third-section__right-title .title__hr {
+    left: 3px;
+    top: 40px;
+    width: 20px;
+  }
+  /* line 646, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+  .third-section__right-wrapper {
+    max-width: 400px;
+  }
+  /* line 648, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+  .third-section__text {
+    font-size: 14px;
+  }
+  /* line 653, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+  .footer__img {
+    width: 475px;
+  }
+  /* line 655, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+  .footer__title {
+    font-size: 40px;
+  }
+  /* line 657, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+  .footer__title .title__hr {
+    top: 40px;
+    width: 25px;
+  }
+}
+
+@media (max-width: 575px) {
+  /* line 663, ../../courses/CoursesVerstka/courseTwo/projectVerstka/project-2/src/sass/style.sass */
+  .container {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
