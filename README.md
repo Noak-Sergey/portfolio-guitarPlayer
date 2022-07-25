@@ -1,3 +1,3 @@
 # portfolio-guitarPlayer
 
-Created project HTML/CSS/Flex/Adaptive
+Project created with HTML/CSS/Flex/Adaptive.
